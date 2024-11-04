@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navbar {
+    padding: 0 0 25px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 50px;
+    padding: 0;
+    border-bottom: 2px solid #ff000000;
+    transition-duration: 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link a:hover {}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .7);
+    border-bottom: 2px solid red;
+}
+
+.logo {}
+
+.logo img {
+    transform: translate(0px, 20px);
+    max-width: 65%;
+    display: block;
+}
+
+.content-part2 {
+    background-image: linear-gradient(to top, #4770B0, #233655);
+}
+
+.content-part2 p {
+
+    color: #fff;
+
+    padding: 280px 0px 32px 0px;
+}
+
+.heading {
+    position: relative;
+}
+
+.content-part {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background: #fff;
+    border-left: 15px solid #FE8340;
+    border-top: 15px solid #FE8340;
+    padding: 50px 0 25px 90px;
+    max-width: 85%;
+}
+
+.content-part h5 {
+
+    color: #FE8340;
+}
+
+.content-part h4 {
+
+    color: #41649E;
+}
+
+.content-part p {
+
+    color: black;
+}
+
+.category {}
+
+.category h2 {
+
+    color: #375587;
+
+    padding: 50px 0;
+}
+
+.category-content {
+
+    box-shadow: 8px 10px 11px -6px #333333ad;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.category-content h3 {
+    color: #FF5A00;
+    font-size: 20px;
+}
+
+.category-content p {
+
+    color: black;
+
+    padding-bottom: 25px;
+}
+
+.category-content span {
+
+    height: 25px;
+
+    background: #ff000000;
+
+    border-left: 3px solid;
+
+    border-top: 3px solid;
+
+    display: inline-block;
+
+    width: 50px;
+
+    color: #446CAA;
+}
+
+
+.choose {
+
+    padding: 35px 0;
+}
+
+.choose h3 {
+
+    color: #2D466E;
+
+    max-width: 395px;
+}
+
+.choose p {
+
+    color: black;
+}
+
+.macbook {
+
+    background: #314C78;
+
+    padding: 37px 0;
+}
+
+.mac-content {
+
+    text-align: center;
+}
+
+.mac-content ul {}
+
+.mac-content ul li {
+
+    list-style-type: none;
+}
+
+.mac-content ul li h4 {
+    color: #FE8340;
+}
+
+.mac-content ul li p {
+    color: #fff;
+    font-size: 14px;
+    max-width: 280px;
+    margin: auto;
+    text-align: -webkit-auto;
+}
+
+.mac-content p {}
+
+.mac-pic {
+
+    text-align: center;
+
+    position: relative;
+}
+
+.mac-pic img {
+
+    max-width: 80%;
+
+    margin-top: 140px;
+
+    text-align: center;
+}
+
+.Benefits {}
+
+.Benefits h2 {
+
+    padding: 25px 0;
+}
+
+.Benefits p {
+
+    padding-bottom: 20px;
+}
+
+.benefits-content {}
+
+.benefits-content ul {}
+
+.benefits-content ul li {}
+
+.benefits-content ul li h1 {
+
+    font-size: 14px;
+
+    text-align: justify;
+
+    color: #333333c9;
+}
+
+.benefits-content ul li span {
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    color: black;
+}
+
+.benefits-pic {
+
+    text-align: right;
+}
+
+.benefits-pic img {
+
+    width: 671px;
+
+    height: 575px;
+}
+
+.footer {
+
+    background: #2B5696;
+
+    padding: 44px 0;
+}
+
+.footer img {}
+
+.footer p {
+
+    color: #fff;
+
+    max-width: 375px;
+
+    margin-top: 10px;
+}
+
+.footer-menu {}
+
+.footer-menu ul {}
+
+.footer-menu ul li {
+
+    list-style-type: none;
+}
+
+.footer-menu ul li a {
+
+    color: #fff;
+
+    padding-bottom: 19px;
+
+    display: block;
+
+    font-size: 15px;
+}
+
+.footer-end {}
+
+.footer-end p {
+
+    background: #98C0FF;
+
+    text-align: center;
+
+    padding: 15px 0;
+
+    margin: 0;
+}
+
+.footer-menu {}
+
+.footer-menu ul {}
+
+.footer-menu ul li strong {
+
+    color: #D6DCE6;
+}
+.footer-menu ul li {
+
+   
+}
+
+.footer-menu ul li span {
+
+    margin-right: 12px;
+
+    display: inline-block;
+
+    font-size: 12px;
+}
+
+.sales {
+    padding-bottom: 280px;
+    padding-top: 35px;
+}
+
+.sales h4 {
+
+    padding-bottom: 25px;
+
+    color: #385587;
+
+    font-size: 35px;
+}
+
+.sales-box {
+
+    background-image: linear-gradient(to top, #233655c9, #4770b0e6);
+
+    padding: 20px;
+}
+
+.sales-box ul {}
+
+.sales-box ul li {}
+
+.sales-box ul li h6 {
+
+    font-size: 20px;
+
+    padding: 0;
+
+    margin: 0;
+
+    color: #fff;
+}
+
+.sales-box ul li span {
+
+    display: block;
+
+    margin-left: auto;
+
+    background: #FE8340;
+
+    width: 20px;
+
+    height: 20px;
+
+    line-height: 20px;
+
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+.sales-box ul p {
+
+    color: #fff;
+
+    font-size: 14px;
+
+    padding: 10px 0;
+}
+
+.two {
+
+    transform: translate(37px, 60px);
+}
+
+.four {
+
+    transform: translate(-37px, 140px);
+}
+
+.three {
+
+    transform: translate(10px, 75px);
+}
+
+.five {
+
+    transform: translate(-35px, 85px);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.six {
+
+    transform: translate(-35px, 220px);
+}
